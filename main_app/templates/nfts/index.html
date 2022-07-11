@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1 class="center">Nft List</h1>
+
+{% for nft in nfts %}
+  <div class="card">
+    <div class="card-content">
+      <span class="card-title">{{ nft.name }}</span>
+      <p>Cost: {{ nft.cost }}</p>
+      <p>Description: {{ nft.description }}</p>
+      <p>Id: {{ nft.id }}</p>
+    </div>
+  </div>
+{% endfor %}
+
+{% endblock %}
