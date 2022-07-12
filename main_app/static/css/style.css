@@ -13,3 +13,28 @@ body {
     text-align: right;
   }
   
+.italic {
+  font-style: italic;
+}
+
+nav {
+  border-radius:15px;
+}
+
+.nav-wrapper {
+  background: linear-gradient(0deg, rgba(118, 108, 171, 0.25), rgba(0, 0, 0, 0.75));
+  border-radius: 15px;
+}
+
+.page-footer {
+  background: linear-gradient(180deg, rgba(118, 108, 171, 0.25), rgba(0, 0, 0, 0.75));
+}
+
+li {
+  border-radius: 15px;
+}
+
+li:hover {
+  background: rgb(123, 155, 174);
+  border-radius: 15px;
+}
